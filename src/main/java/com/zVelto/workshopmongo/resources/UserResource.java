@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import com.zVelto.workshopmongo.domain.User;
+import com.zVelto.workshopmongo.dto.UserDTO;
 import com.zVelto.workshopmongo.services.UserService;
-import com.zVelto.workshopmongodto.UserDTO;
 
 @RestController
 @RequestMapping(value="/users")
